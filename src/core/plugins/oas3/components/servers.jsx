@@ -115,7 +115,7 @@ export default class Servers extends React.Component {
     return (
       <div className="servers">
         <label htmlFor="servers">
-          <select onChange={ this.onServerChange } value={currentServer}>
+          <select aria-label="server-select" onChange={ this.onServerChange } value={currentServer}>
             { servers.valueSeq().map(
               ( server ) =>
               <option
