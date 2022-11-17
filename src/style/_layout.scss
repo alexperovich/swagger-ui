@@ -448,8 +448,6 @@
 
     &.opblock-deprecated
     {
-        opacity: .6;
-
         @include method($_color-disabled);
     }
 
